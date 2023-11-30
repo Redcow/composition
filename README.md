@@ -16,7 +16,7 @@ vous pouvez déclenchez les tests via le terminal du container php : /app/vendor
 HumanTranslator est le service déclencheur.
 
 Les objets Composition et Criterion sont chargés via le PartProvider.
-Les objets Composition et Criterion portent une même interface pour faciliter le traitement de production de texte quelque soit l'objet concerné dans l'arbre des compositions.
+Les classes Composition et Criterion portent une même interface pour faciliter le traitement de production de texte quelque soit la classe concernée dans l'arbre des compositions.
 
 Les exceptions sont déclenchées si le JSON fournis est malformé. Leur spécialisation en Objet est utile pour les assertions dans les tests.
 
@@ -38,5 +38,3 @@ J'ai démarré en voulant absolument mapper les éléments fournis par le JSON e
 
 Pour éviter les magic string j'ai exporté les indexs en constantes,
 c'est mieux pour la maintenabilité mais plus fatigant pour la lisibilité.
-
-Bref j'ai déjà passé plus d'1h alors je m'arrête là
