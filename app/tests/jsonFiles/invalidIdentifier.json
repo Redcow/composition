@@ -1,0 +1,35 @@
+{
+  "criteria":
+  [
+    {
+      "uuid": "9c7b4212-ad88-4817-afb4-f1ef2a21f28e",
+      "name": "critère_1"
+    },
+    {
+      "uuid": "1c944f87-b244-459b-ae42-efbcb032a1d3",
+      "name": "critère_2"
+    }
+  ],
+  "composition":
+  [
+    {
+      "identifiers":
+      [
+        {
+          "uuid": "9c7b4212-ad88-4817-afb4-f1ef2a21f28e",
+          "type": "CRITERIA"
+        },
+        {
+          "uuid": "1c944f87-b244-459b-ae42-efbcb032a1d3",
+          "type": "CRITERIA"
+        },
+        {
+          "uuid": "I AM INVALID",
+          "type": "CRITERIA"
+        }
+      ],
+      "operator": "AND",
+      "uuid": "d65a96f0-e90a-4289-8ad8-0eecad0492c0"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+
+  php:
+    build: docker/php
+    container_name: compo
+    ports:
+      - "6222:80"
+      - "6333:443"
+    volumes:
+      - ./app:/app
+    extra_hosts:
+      - host.docker.internal:host-gateway
