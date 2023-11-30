@@ -1,5 +1,7 @@
 # composition
 
+![image](https://github.com/Redcow/composition/assets/6064884/b76b1f20-574a-4d3b-bd26-df0e66fd62b0)
+
 ## mise en place
 Installer le projet via la commande "docker-compose up -d"
 
